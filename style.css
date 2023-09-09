@@ -1,0 +1,98 @@
+h1{
+    text-align: center;
+    font-weight:bolder;
+    color: rgb(236, 29, 192);
+    text-decoration: underline double rgb(5, 197, 255);
+    text-shadow: 2px 2px 15px gold;
+    margin: 15px;
+}
+.outer{
+    width: 35rem;
+    min-height: 32rem;
+    background-color: #121212;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    
+}
+ul{
+    margin: 15px;
+    list-style-type:circle;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight:700 ;
+}
+div{
+    width: 300px;
+    margin: 5px auto;
+}
+body{
+    background-color: #000;
+    /* background-image: url("hand-drawn-essay-illustration_23-2150292643.avif"); */
+    background-size:100lvh;
+    background-repeat:repeat-x;
+  
+        
+    /* background-color: rgba(9, 75, 197, 0.356); */
+    font-family:'Courier New', Courier, monospace ;
+    /* overflow-y: scroll; */
+    
+}
+section{
+    width: 25rem;
+    min-height: 15rem;
+    background-color: #232323;
+    margin: 22px auto;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 1rem;
+}
+input{
+    height: 30px;
+    border-radius: 50px;
+    margin: 30px;
+   background-color: rgba(247, 247, 247, 0.753);
+    box-shadow: 5px 5px 15px black;
+    padding: auto;
+
+}
+input:hover{
+    transform: scale(1.1);
+    border: 2px solid wheat;
+}
+div button{
+    width: 50px;
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: rgba(0, 255, 13, 0.596);
+    cursor: grab;
+    box-shadow: 2px 2px 15px black;
+    
+    
+}
+div button:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 15px white;
+}
+section h3{
+
+    text-align: center;
+   
+    margin-right: 15px;
+}
+section ul li  span{
+   margin-left: 10px;
+   cursor: grab;
+   color: red;
+   transform: scale(0.7);
+}
+section ul li  span:hover{
+    transform: scale(1.2);
+}
+
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
